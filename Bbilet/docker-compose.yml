@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  bbilet-app:
+    build: .
+    container_name: bbilet-liet-satinalma
+    ports:
+      - "8080:80"
+    volumes:
+      - ./storage:/var/www/html/storage
+      - ./public:/var/www/html/public
+    environment:
+      - PHP_ENV=production
+    restart: unless-stopped
+    networks:
+      - bbilet-network
+
+networks:
+  bbilet-network:
+    driver: bridge

@@ -1,0 +1,11 @@
+{
+    "name": "muham/bbilet",
+    "autoload": {
+        "psr-4": {
+            "Muham\\Bbilet\\": "src/"
+        }
+    },
+    "require": {
+        "dompdf/dompdf": "*"
+    }
+}
