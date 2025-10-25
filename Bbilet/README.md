@@ -123,11 +123,11 @@ Sistem seed edildiğinde aşağıdaki kullanıcılar oluşturulur:
 ### 🏢 Firma Yöneticileri
 | E-posta | Şifre | Firma | Rol |
 |---------|-------|-------|-----|
-| has@firma | firma | Has Siber | Firma Admin |
-| express@firma | firma | Siber Express | Firma Admin |
-| yeni@firma | firma | Yeni Siber | Firma Admin |
-| zart@firma | firma | Zart Turzim | Firma Admin |
-| zort@firma | firma | Zort Turizm | Firma Admin |
+| firma1@firma | firma | HızlıTur | Firma Admin |
+| firma2@firma | firma | Güvenli Yolculuk | Firma Admin |
+| firma3@firma | firma | Mega Turzim | Firma Admin |
+| firma4@firma | firma | Anadolu Express | Firma Admin |
+| firma5@firma | firma | Şehirler Arası | Firma Admin |
 
 ### 👤 Normal Kullanıcılar
 | E-posta | Şifre | Ad Soyad | Bakiye |
@@ -142,12 +142,12 @@ Sistem seed edildiğinde aşağıdaki kullanıcılar oluşturulur:
 
 | Kupon Kodu | İndirim | Kullanım Limiti | Kapsam |
 |------------|---------|-----------------|--------|
-| SA50 | %50 | 100 | Genel |
-| HAS64 | %64 | 100 | Has Siber |
-| EXPRESS55 | %55 | 100 | Siber Express |
-| YENI44 | %44 | 100 | Yeni Siber |
-| ZART10 | %10 | 100 | Zart Turzim |
-| ZORT20 | %20 | 100 | Zort Turizm |
+| WELCOME10 | %10 | 100 | Genel |
+| HIZLI20 | %20 | 100 | HızlıTur |
+| GUVEN15 | %15 | 100 | Güvenli Yolculuk |
+| MEGA25 | %25 | 100 | Mega Truzim |
+| ANADOLU12 | %12 | 100 | Anadolu Express |
+| SEHİR5 | %05 | 100 | Şehirler Arası |
 
 ## 🚌 Mevcut Seferler
 
@@ -286,5 +286,6 @@ Herhangi bir sorun yaşarsanız:
 3. PHP hata loglarını kontrol edin
 
 ## 📄 Lisans
+
 
 Bu proje eğitim amaçlı geliştirilmiştir.
